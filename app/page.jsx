@@ -10,12 +10,12 @@ import RazorpayButton from './_components/razorpay/page'
 export default function Home() {
   const [activeTab, setActiveTab] = useState("about")
 
-  const aboutRef = useRef<HTMLDivElement>(null)
-  const scheduleRef = useRef<HTMLDivElement>(null)
-  const teachersRef = useRef<HTMLDivElement>(null)
-  const moreDetailsRef = useRef<HTMLDivElement>(null)
+  const aboutRef = useRef(null)
+  const scheduleRef = useRef(null)
+  const teachersRef = useRef(null)
+  const moreDetailsRef = useRef(null)
 
-  const handleTabClick = (tab: string) => {
+  const handleTabClick = (tab) => {
     setActiveTab(tab)
 
     // Scroll to the appropriate section
