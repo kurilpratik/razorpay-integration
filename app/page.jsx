@@ -36,7 +36,7 @@ export default function Home() {
       <header className="flex items-center justify-between p-4 bg-white fixed w-full">
         <div className="w-10 h-10 rounded-full overflow-hidden">
           <Image
-            src="/pw.webp"
+            src="./pw.webp"
             alt="Logo"
             width={40}
             height={40}
